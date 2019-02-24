@@ -1,0 +1,501 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: Lucida Sans; /* Имя шрифта */
+    src: url(fonts/6623.ttf); /* Путь к файлу со шрифтом */
+   }
+body{ 
+      margin: 0 auto;
+      max-height: 1310px; 
+      max-width: 1000px; 
+     }
+
+     
+     .telephone:before{
+     	position: absolute;
+     	content:  url("img/телефоная трубка.png")  ;
+     	margin-top:  2px;
+     	margin-left: -24px;  
+     }
+            .telephone{
+            	position: relative;
+            	float: left;
+            	width: 26%;
+            	font-size: 20px;
+            	margin-left:76px;
+            	margin-top: 4px; 
+            }     
+                .registration{          	
+                float: right;     
+                width: 47%;     
+                background-color: #124468;
+                padding: 3px 3px 3px 25px;
+                margin-right: 143px;
+                margin-top: 2px;   
+               }
+               .registration:before{
+               	position: absolute;
+     	        content:  url("img/человечек.png");
+     	        margin-left:  -19px;
+     	      }
+              .registration:after{
+               	position: absolute;
+     	        content:  url("img/домик-почта.png");
+     	        margin-left:  24px;
+     	        margin-top: -2px;
+     	      } 
+
+
+
+
+      input{
+	width:95px;
+
+}
+.Login{ /*color: white;
+       text-decoration:none;
+       background-color: #E4E7E8;*/ }
+       .entry{
+       	color: white;
+       text-decoration:none;
+       background-color: #124569;
+       }
+.button_inside{
+	width: 110px;
+}
+
+      .login{
+
+      }
+
+      .logo{
+      	content:  url("img/колесо.png");
+      	margin-left : 47px;
+      	padding-top: 11px;
+
+      }
+                    #navigation{
+                    margin-top: 4px;
+                    margin-left : 46px;
+                    height: 36px;
+                    width:  909px;                   
+                    color: #ffffff;
+                    background: #060707;
+                    box-shadow: 0 0 10px rgba(0,0,1,1);
+
+                   }
+                   #navigation ul{
+                   	margin-left : 137px;
+                    list-style: none;
+                   }
+                   #navigation > ul > li{ 
+
+                    float: left;
+                    margin-top: 6px;
+                    margin-left: -2px;
+                    font-family: Lucida Sans;
+                    font-size: 16px;
+                   
+                   }
+                   #navigation li a{
+                   	height: 10px;
+                   	width: 30px;
+                   	margin-left: 7px;
+                   	color:#ffffff;                   	
+                   	border-radius: 9px;                                                           
+                    padding: 4px;                    
+                    text-decoration: none;
+                   }
+                   #navigation li a:hover{
+                    background: #124569;
+                   }
+               .searching{
+               	height: 150px;
+               }
+                   .searching_car{
+                   	float: left;
+                   	width: 412px;
+                   	height: 132px;
+                   	margin-top: 12px;
+                   	margin-left:  50px;
+                   	border: 1px solid #aaa;
+                   	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                   	border-radius: 17px;
+                   }
+                   .searching_wheel{
+                   	float: left;
+                   	width: 190px;
+                   	height: 132px;
+                   	margin-top: 12px;
+                   	margin-left:  15px;
+                   	border: 1px solid #aaa;
+                   	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                   	border-radius: 17px;
+                   }
+                   .searching_disk{
+                    float: left;
+                   	width: 267px;
+                   	height: 132px;
+                   	margin-top: -130px;
+                   	margin-left:  190px;
+                   	border: 1px solid #aaa;
+                    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                   	border-radius: 17px;
+                   }
+                   .input1{
+                   	float: left;
+                   	font-family: Lucida Sans;
+                   	font-size: 10px;
+                   	line-height: 0.5em;
+                   	padding-left: 17px;
+                   }
+                   .input_season2{
+                   	float: left;
+                   	font-family: Lucida Sans;
+                   	font-size: 10px;
+                   	line-height: 0.5em;
+                   	padding-left: 58px;
+                   	padding-top: 2px;
+
+                   }
+
+                   .a1{
+                   	margin-left: 15px;
+                   	margin-right: 62px;
+                   }
+                   .a2{
+                   	margin-right: 64px;
+                   }                   
+                   .input2{
+                   	float: right;
+                   	font-family: Lucida Sans;
+                   	font-size: 10px;
+                   	line-height: 0.5em;
+                   	padding-right: 49px;                    
+                   }
+                   .search{ 
+                   float: right;
+                   margin-top:  4px;
+                   margin-right: 8px; 
+               }
+                   .input3{width: 100%;
+                   	height: 100%;
+                   	font-family: Lucida Sans;
+                   	font-size: 10px;
+                   	line-height: 0.5em;
+                   	padding-right: 49px;
+
+                   }
+                   .a4{
+                   	margin-left: 7px;
+                   }
+                   .d3{margin-left: 16px;
+
+                   }
+                   .d5{margin-left: -11px;}
+                   .R{
+
+                   	margin-left: 47px;
+                   	padding-top:  8px;
+                   }
+
+                   .season{
+                   	margin-left: 12px;
+                   	margin-top:6px;
+                   }
+                  .input_season{
+                  	margin-left: -12px;
+                   	margin-top:-6px;
+
+                  }
+                  .search2 {
+                   float: right;
+                   margin-top:  1px;
+                   margin-right: 8px; 
+
+                  }
+
+                
+                .input4{
+                	width: 100%;
+                   	height: 100%;
+                   	font-family: Lucida Sans;
+                   	font-size: 10px;
+                   	line-height: 0.7em;
+                   	padding-right: 49px;                   		
+                }
+                .c1{float: left;                    
+                    margin-left: 10px;
+                    }           
+                .c2{
+                   	float: left;
+                   	margin-top: 20px;
+                   	margin-left: 2px;
+                    } 
+                    #c22{
+                    	margin-top: 16px;
+                   	    margin-left: 2px;
+                    }
+                    #c23{
+                    	margin-top: 9px;
+                   	    margin-left: 25px;
+                    }
+                    #c24{
+                    	margin-top: 10px;
+                   	    margin-left: 8px;
+                    }
+                   .c3{
+                   	float: left;
+                   	margin-top: 5px;
+                   	margin-left: 2px;
+                   } 
+                   .c4{
+                   	float: left;
+                   	margin-top: 7px;
+                   	margin-left: 3px;
+                   } 
+                   .input5{
+                   	width: 100%;
+                   	height: 100%;                 	
+                   	margin-top: -90px;
+                   	margin-left: 185px;                   
+                   }
+                   
+                  .search3 {
+                   float: right;
+                   margin-top:  3px;
+                   margin-right: 191px; 
+
+                  }
+                  #c26{
+                  	margin-top: 11px;
+                  }
+                  .line{
+                  	border-right: solid 1px; color:grey;
+                    height: 101px;
+                    margin-top:  -133px;
+                    margin-right: 92px;
+                  }
+                  .content{
+                  	height: 719px;
+                  	width: 1000px;
+                  	margin-top: 56px;
+                  	margin-left:-485px;
+                  }
+                  .catalog1{
+                  	max-width: 190px;
+                  	/*float: left;*/
+                  	font-family: Lucida Sans;
+                  }
+                  .catalog_product{
+                  	width:137px;
+                  	border: solid 1px;
+                  	border-radius: 14px;
+                  	padding:11px 10px 11px 34px;
+                  	margin-top: -12px;
+                  	margin-left: 51px;                  	
+                   	font-size: 12px;
+                  }
+                                  .catalog_product:before{
+                                position: absolute; 	
+     	                        content:  url("img/note.png");
+     	                        margin-top: -10px;
+     	                        margin-left:  -28px;
+                                  }
+
+                  .wheel_1{
+                  	width:105px;
+                  	border: solid 1px;
+                  	border-radius: 14px;
+                  	padding:11px 10px 11px 34px;
+                  	margin-top: 12px;
+                  	margin-left: 51px;                  	
+                   	font-size: 12px;
+                  }
+                                   .wheel_1:before{
+                                  position: absolute;
+     	                          content:  url("img/circle.png");
+     	                          margin-top: -10px;
+     	                          margin-left:  -28px;
+                                  }
+                  .names{
+                  	font-size: 13px;
+                  	line-height: 25px;
+                  	margin-left: 102px;
+                  }
+                  .names:hover{
+                  	font-size: 13px;
+                  	font-style: italic;
+                  	text-decoration:underline;
+                  	line-height: 25px;
+                  	margin-left: 102px;
+                  }
+                  .disk_1{
+                  	width:105px;
+                  	border: solid 1px;
+                  	border-radius: 14px;
+                  	padding:11px 10px 11px 34px;
+                  	margin-top: -2px;
+                  	margin-left: 51px;                  	
+                   	font-size: 12px;
+                  }
+                                    .disk_1:before{
+                                                   	position: absolute;
+     	                                            content:  url("img/circle.png");
+     	                                            margin-top: -10px;
+     	                                            margin-left:  -28px;
+                                                    }
+                  .the_bolts{
+                  	width:105px;
+                  	border: solid 1px;
+                  	border-radius: 14px;
+                  	padding:11px 10px 11px 34px;
+                  	margin-top: -2px;
+                  	margin-left: 51px;                  	
+                   	font-size: 12px;
+                  }
+                                    .the_bolts:before{
+                                                   	position: absolute;
+     	                                            content:  url("img/circle.png");
+     	                                            margin-top: -10px;
+     	                                            margin-left:  -28px;
+                                                    }
+
+                  .wheel_catalog{
+                  	height: 626px;
+                  	width:526px;
+                  	margin-top: -428px;
+                  	margin-left:242px;
+                  	background-color: #E4E7E8;
+                  	border-radius: 5px;
+                  }
+                  .brend_catalog{
+                  	width:105px;                  	
+                  	border-radius: 14px;
+                  	padding:11px 10px 11px 34px;
+                  	margin-top: -624px;
+                  	margin-left: 692px;                  	
+                   	font-size: 12px;                  
+                  }
+                  #brend1{width: 50px;}
+                  .wheel_2{
+                  	width:93px;
+                  	border: solid 1px;
+                  	border-radius: 14px;
+                  	padding:11px 10px 11px 34px;
+                  	margin-top: 14px;
+                  	margin-left: 64px;                  	
+                   	font-size: 12px;
+                  }
+                                   .wheel_2:before{
+                                                   position: absolute;
+     	                                           content:  url("img/circle.png");
+     	                                           margin-top: -10px;
+     	                                           margin-left:  -28px;
+                                                   }
+                  .disk_2{
+                  	width:92px;
+                  	border: solid 1px;
+                  	border-radius: 14px;
+                  	padding:11px 10px 11px 34px;
+                  	margin-top: 0px;
+                  	margin-left: 63px;                  	
+                   	font-size: 12px;
+                  }
+                                   .disk_2:before{
+                                                   position: absolute;
+     	                                           content:  url("img/circle.png");
+     	                                           margin-top: -10px;
+     	                                           margin-left:  -28px;
+                                                   }
+                  .wheel_21{
+                  	margin-left: 37px;
+                  	padding: 10px;
+                  	line-height: 22px;
+                  }
+                  .brend_input1{
+                  	margin-top: -88px;
+                  	margin-left: 90px;
+                  	padding: 10px;
+                  	line-height: 22px;
+                  }
+                  .disk_21{
+                  	margin-left: 37px;
+                  	padding: 10px;
+                  	line-height: 22px;
+                  }
+                  .brend_input2{
+                  	margin-top: -88px;
+                  	margin-left: 90px;
+                  	padding: 10px;
+                  	line-height: 22px;
+                  }
+                  .search4{
+                  	color: white;
+                  	background:	#0E385C	;
+                    border-radius: 14px; 
+                    float: right;
+                    font-size: 12px;
+                    margin-top:  -129px;
+                    margin-right: -56px;
+                    padding: 4px 6px 4px 6px;
+                  }                   
+                .img1{
+                  	
+                    margin-left:  20px;
+                    border-radius: 14px;
+                    padding-top: 22px;
+                    float: left;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #206988;
+                  	height: 29%;
+                  	width:  28%;                  	
+                }
+                                                  .img1:hover{
+                                    -webkit-transform: scale(1.2);
+                                    -ms-transform: scale(1.2);
+                                    transform: scale(1.2);
+                                                   }
+
+                }                                                                     
+                  .goodyear{
+                  	display: block;
+                  	margin-top:  9px;
+                    margin-left:  -10px;                                      	
+                  	 }
+                   .good{
+                    border-radius: 7px;
+                   	margin-top:  9px;
+                    margin-left:  12px;                     
+                    }
+                   .brand_footer{	               
+                    margin-left:  138px;
+                    }
+                    .brand_footer1{
+                    	margin-top: 47px;
+                    }
+                    .footer{
+                    	margin-top: 22px;
+                    	margin-left: 56px;
+                    	height: 100px;
+                  	    width:  909px;
+                  	    background:	#213A4D	;                  	
+                    }
+                     ul.hr {                     	
+                     	 text-align: center;
+                     	 text-decoration: none;
+                     	 color: white;                         
+                         padding: 15px; 
+                        }
+                     ul.hr li {                     
+                      color: white;
+                      font-size: 12px;
+                      display: inline; 
+                      margin-right: 14px; 
+                      border-left:  2px solid grey; 
+                      padding: 3px; 
+                     }
+   
